@@ -13,7 +13,7 @@ A = int(input('1 число: '))
 B = int(input('2 число: '))
 for i in range(A, B - 1, -1):
     if i % 2 == 1:
-        print(i)    # 3
+        print(i)    # 3 всё ниже для тренировки
 
 
 
