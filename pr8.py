@@ -6,6 +6,7 @@ a = int(input())
 print(s6(a))   # 1
 
 
+
 def spr(a, b):
     return a * b
 
