@@ -1,4 +1,4 @@
-n = int(input())
+n = int(input())   # VAR 2
 matr = []
 res = []
 resf = 0
@@ -28,4 +28,20 @@ if f == 1:
     else:
         print('Квадрат не магический')
 else:
-    print('Квадрат не магический')
+    print('Квадрат не магический')   # 1
+
+
+n = int(input())
+matr = []
+res = []
+for i in range(n):
+    s = input().split()
+    s = [int(x) for x in s]
+    matr.append(s)
+for el in matr:
+    n = el[0]
+    el[0] = el[-1]
+    el[-1] = n
+    res.append(el)
+for el in res:
+    print(el)   # 2
